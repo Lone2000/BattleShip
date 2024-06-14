@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.option-container{
+    width: 500px;
+    height: fit-content;
+    background-color: brown;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+.destroyer{
+    background-color: yellowgreen;
+}
+
+.submarine{
+    background-color: violet;
+}
+
+.cruiser{
+    background-color: turquoise;
+}
+
+.battleship{
+    background-color: blue;
+}
+
+.carrier{
+    background-color: orange;
+}
+
+.destroyer-preview{
+    width: 20px;
+    height: 10px;
+    margin: 3px;
+    /* background-color: yellowgreen; */
+}
+
+.submarine-preview{
+    width: 30px;
+    height: 10px;
+    margin: 3px;
+}
+
+.cruiser-preview{
+    width: 30px;
+    height: 10px;
+    margin: 3px;
+
+}
+
+.battleship-preview{
+    width: 40px;
+    height: 10px;
+    margin: 3px;
+}
+
+.carrier-preview{
+    width: 50px;
+    height: 10px;
+    margin: 3px;
+}
+
+
+
